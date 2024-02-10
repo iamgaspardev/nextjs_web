@@ -1,0 +1,46 @@
+.mainwrapper{
+    display: flex;
+    flex-direction: row;
+    gap:50px
+}
+.maincontainer{
+    justify-content: center;
+    justify-items: center;
+}
+    .outercontainer{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-top:2%;
+    }
+    .leftcontainer{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+    .rightcontainer {
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+        overflow-x: auto; 
+        scrollbar-width: thin; 
+        scrollbar-color: transparent transparent; 
+        -ms-overflow-style: none; 
+        gap: 10px;
+      }
+      
+      .rightcontainer::-webkit-scrollbar {
+        width: 12px;
+      }
+      
+      .rightcontainer::-webkit-scrollbar-thumb {
+        background-color: transparent; /* Hide scrollbar thumb */
+      }
+      
+      .rightcontainer::-webkit-scrollbar-track {
+        background-color: transparent; /* Hide scrollbar track */
+      }
+      
+    .productcontainer{
+        
+    }
